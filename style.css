@@ -1,0 +1,83 @@
+body, html {
+    height: 100%;
+}
+
+h1 {
+    background-color: black;
+    color:chartreuse;
+}
+
+.background {
+    background-image: url(https://wallpapercave.com/wp/wp2711810.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.header {
+    position: fixed;
+    top: 0px;
+    left: 150px;
+    right: 150px;
+    text-align: center;
+}
+
+.bandInfo {
+    color: whitesmoke;
+    text-shadow: 2px 2px black;
+    width: 40vw;
+    height: 70vh;
+    margin: 10px;
+    padding: 10px;
+    border: 4px chartreuse solid;
+    position: relative;
+    left: 20px;
+    top: 40px;
+}
+
+.contactInfo {
+    width: 30vw;
+    position: absolute;
+    right: 96px;
+    bottom: 130px;
+}
+
+.submitButton {
+    position:absolute;
+    bottom: 75px;
+    right: 25%;
+    left: 75%;
+}
+
+.nameBar {
+    background-color: olivedrab;
+}
+
+.emailBar {
+    background-color: chartreuse;
+}
+
+.phoneBar {
+    background-color: black;
+    color: chartreuse;
+}
+
+#scaryFace {
+    height: 425px;
+    width: 425px;
+    position: absolute;
+    top: 50px;
+    right: 96px;
+    margin: auto;
+    border: whitesmoke 10px solid;
+    padding: 20px;
+}
+
+#imgCredit {
+    color: yellow;
+    background-color: olivedrab;
+    position: fixed;
+    bottom: 30px;
+    right: 10px;
+}
